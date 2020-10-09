@@ -19,9 +19,9 @@
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
                 <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                    {{-- <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" /> --}}
                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                        {{-- <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button> --}}
                     </div>
                 </div>
             </form>
@@ -48,7 +48,7 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="userDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <i class="fas fa-user fa-fw"></i> <span class="caret"></span>
+                            <i class="fas fa-user fa-fw"></i> {{auth()->user()->name}}<span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">

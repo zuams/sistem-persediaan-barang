@@ -8,7 +8,7 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Dashboard
                 </a>
-                <div class="sb-sidenav-menu-heading">Inventory</div>
+                {{-- <div class="sb-sidenav-menu-heading">Inventory</div> --}}
                 <a class="nav-link" href="/product">
                     <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
                     Product
@@ -21,7 +21,7 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-file"></i></div>
                     Unit
                 </a>
-                <div class="sb-sidenav-menu-heading">Manage data</div>
+                {{-- <div class="sb-sidenav-menu-heading">Manage data</div> --}}
                 <a class="nav-link" href="/transaction">
                     <div class="sb-nav-link-icon"><i class="fas fa-cart-arrow-down"></i></div>
                     Warehouse
@@ -32,12 +32,12 @@
                         Submission
                     </a>
                 @endif
-                <div class="sb-sidenav-menu-heading">History</div>
+                {{-- <div class="sb-sidenav-menu-heading">History</div> --}}
                 <a class="nav-link" href="/history">
                     <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
                     History stock
                 </a>
-                <div class="sb-sidenav-menu-heading">Users</div>
+                {{-- <div class="sb-sidenav-menu-heading">Users</div> --}}
                 <a class="nav-link" href="/users">
                     <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                     Users
